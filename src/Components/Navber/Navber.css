@@ -1,0 +1,25 @@
+.nav{
+    background-color: aquamarine;
+    
+    display: flex;
+    align-items: center;
+    justify-content:  space-evenly;
+    padding: 20px 30px;
+}
+.name-nav{
+    display: flex;
+    align-items: center;
+}
+.icon{
+    font-size: 33px;
+    color: rgb(252, 15, 15);
+    margin-right: 5px;
+}
+.nav h1{
+    margin: 0px;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+    margin-right: 15px;
+}
