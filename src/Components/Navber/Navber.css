@@ -1,6 +1,5 @@
 .nav{
     background-color: aquamarine;
-    
     display: flex;
     align-items: center;
     justify-content:  space-evenly;
@@ -23,4 +22,23 @@
     text-decoration: none;
     color: black;
     margin-right: 15px;
+}
+
+
+
+@media only screen and (max-width: 480px) {
+    .nav{
+        padding: 10px 10px;
+        justify-content: space-between;
+    }
+    .icon{
+        font-size: 25px;
+    }
+    .nav h1{
+        font-size: 18px;
+    }
+    .nav a{
+        margin-right: 8px;
+    }
+    
 }
