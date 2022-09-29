@@ -1,8 +1,16 @@
 import React, { useState } from 'react';
+import {toast} from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import './Activity.css'
+
+
 
 const Activity = (props) => {
     const { time } = props;
+    
+    const showToastMessage = () => {
+        toast('Hello Geeks')
+    };
 
     return (
         <div className='info'>
@@ -28,7 +36,7 @@ const Activity = (props) => {
                     <p>Total Break time: 0 min</p>
                 </div>
             </div>
-            <button className='complete-btn'>Activity Completed</button>
+            <button className='complete-btn' onClick={showToastMessage}>Activity Completed</button>
         </div>
     );
 };

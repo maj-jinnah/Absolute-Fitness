@@ -12,7 +12,7 @@ const Body = () => {
         setTime(timeRequired);
         // console.log(timeRequired);
     }
-    
+
     useEffect(() => {
         fetch('card.json')
             .then(res => res.json())
