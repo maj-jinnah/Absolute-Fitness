@@ -14,7 +14,7 @@ const Body = () => {
     }
 
     useEffect(() => {
-        fetch('card.json')
+        fetch('fake.json')
             .then(res => res.json())
             .then(data => setCards(data))
     }, [])
