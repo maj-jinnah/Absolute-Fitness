@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
-import { toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import React, { useEffect, useState } from 'react';
+import { toast } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
 import './Activity.css'
 
 
-
+// toast.configure()
 const Activity = (props) => {
     const { time } = props;
 
@@ -16,8 +16,15 @@ const Activity = (props) => {
 
     const addExerciseTime= (time) =>{
         setExerciseTime(time);
+
         localStorage.setItem('breakTime', exerciseTime);
+
+        
     };
+    useEffect( ()=>{
+        const oldTime = localStorage.getItem('breakTime')?localStorage.getItem('breakTime'):0;
+        setExerciseTime(oldTime)
+    }, []);
    
 
     return (
@@ -41,7 +48,8 @@ const Activity = (props) => {
                 <h3>Exercise Details</h3>
                 <div className='total-break'>
                     <p>Total Exercise Time: {time} min</p>
-                    <p>Total Break time: {localStorage.getItem('breakTime')?localStorage.getItem('breakTime'):exerciseTime} min</p>
+                    {/* <p>Total Break time: {localStorage.getItem('breakTime')?localStorage.getItem('breakTime'):exerciseTime} min</p> */}
+                    <p>Total Break time: {exerciseTime} min</p>
                 </div>
             </div>
             <button className='complete-btn' onClick={showToastMessage}>Activity Completed</button>
