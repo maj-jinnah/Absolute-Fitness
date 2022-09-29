@@ -1,4 +1,7 @@
-
+.info{
+    position: sticky;
+    top: 20px;
+}
 .personal-info {
     padding: 5px;
     border-radius: 5px;
@@ -12,7 +15,7 @@ h2 {
 }
 
 .break-time {
-    padding: 20px;
+    padding: 20px 5px;
     display: flex;
     justify-content: space-between;
     box-shadow: 10px 10px 15px grey;
@@ -22,10 +25,30 @@ h2 {
 
 .break-time button {
     border: none;
-    padding: 8px;
+    padding: 10px;
     background-color: white;
     border-radius: 20px;
 }
-.break-time button:hover{
+
+.break-time button:hover {
+    background-color: orange;
+}
+
+.total-break {
+    box-shadow: 10px 10px 15px grey;
+    padding: 10px 5px;
+    border-radius: 10px;
+}
+
+.complete-btn {
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    background: #FFE0B3;
+}
+
+.complete-btn:hover {
     background-color: orange;
 }

@@ -12,20 +12,21 @@ const Activity = () => {
             <div>
                 <h3>Add a Break </h3>
                 <div className='break-time'>
-                    <button> <span>10</span>s</button>
-                    <button> <span>10</span>s</button>
-                    <button> <span>10</span>s</button>
-                    <button> <span>10</span>s</button>
-                    <button> <span>10</span>s</button>
+                    <button> <span>2</span>min</button>
+                    <button> <span>4</span>min</button>
+                    <button> <span>5</span>min</button>
+                    <button> <span>8</span>min</button>
+                    <button> <span>10</span>min</button>
                 </div>
             </div>
-            <dir>
+            <div>
                 <h3>Exercise Details</h3>
-                <div>
-                    <p>Exercise Time 0 min</p>
-                    <p>Break time 0 min</p>
+                <div className='total-break'>
+                    <p>Total Exercise Time 0 min</p>
+                    <p>Total Break time 0 min</p>
                 </div>
-            </dir>
+            </div>
+            <button className='complete-btn'>Activity Completed</button>
         </div>
     );
 };
