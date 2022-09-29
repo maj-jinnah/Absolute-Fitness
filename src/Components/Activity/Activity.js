@@ -48,7 +48,6 @@ const Activity = (props) => {
                 <h3>Exercise Details</h3>
                 <div className='total-break'>
                     <p>Total Exercise Time: {time} min</p>
-                    {/* <p>Total Break time: {localStorage.getItem('breakTime')?localStorage.getItem('breakTime'):exerciseTime} min</p> */}
                     <p>Total Break time: {exerciseTime} min</p>
                 </div>
             </div>

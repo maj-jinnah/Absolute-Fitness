@@ -4,7 +4,6 @@ import './Card.css'
 const Card = (props) => {
     const {player, getTimeFromCard} = props;
     const { name, details, img, age, time } = player;
-    // console.log(player, getTimeFromCard);
     return (
         <div className='card'>
             <img src={img} alt="" />

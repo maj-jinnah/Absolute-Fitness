@@ -11,7 +11,6 @@ const Body = () => {
     const getTimeFromCard = (timeRequired) => {
         const newTime = time+ timeRequired
         setTime(newTime);
-        // console.log(timeRequired);
     }
 
     useEffect(() => {
