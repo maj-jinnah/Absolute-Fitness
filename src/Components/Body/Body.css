@@ -4,6 +4,7 @@
     display: grid;
     grid-template-columns: 3.5fr 1.5fr;
     gap: 10px;
+    
 }
 
 .cards {
@@ -18,4 +19,7 @@
 .activity {
     background-color: lightgreen;
     border-radius: 10px;
+    /* top: 10px; */
+    padding: 8px;
+    text-align: center;
 }

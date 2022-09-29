@@ -4,7 +4,7 @@ import Navber from '../Navber/Navber';
 
 const Home = () => {
     return (
-        <div>
+        <div className='home'>
             <Navber></Navber>
             <Body></Body>
         </div>

@@ -1,0 +1,31 @@
+
+.personal-info {
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    box-shadow: 10px 10px 15px grey;
+}
+
+.personal-info p,
+h2 {
+    margin: 10px;
+}
+
+.break-time {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 10px 10px 15px grey;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.break-time button {
+    border: none;
+    padding: 8px;
+    background-color: white;
+    border-radius: 20px;
+}
+.break-time button:hover{
+    background-color: orange;
+}

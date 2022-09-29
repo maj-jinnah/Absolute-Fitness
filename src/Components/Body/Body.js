@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Activity from '../Activity/Activity';
 import Card from '../Card/Card';
 import './Body.css'
 
@@ -25,7 +26,7 @@ const Body = () => {
 
                 </div>
                 <div className='activity'>
-                    
+                    <Activity></Activity>
                 </div>
             </div>
         </div>
