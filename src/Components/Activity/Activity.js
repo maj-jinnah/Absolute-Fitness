@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import {toast} from 'react-toastify';
+import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import './Activity.css'
 
@@ -7,10 +7,11 @@ import './Activity.css'
 
 const Activity = (props) => {
     const { time } = props;
-    
+
     const showToastMessage = () => {
         toast('Hello Geeks')
     };
+   
 
     return (
         <div className='info'>

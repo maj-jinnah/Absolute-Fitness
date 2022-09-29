@@ -9,7 +9,8 @@ const Body = () => {
     const [time, setTime] = useState(0);
 
     const getTimeFromCard = (timeRequired) => {
-        setTime(timeRequired);
+        const newTime = time+ timeRequired
+        setTime(newTime);
         // console.log(timeRequired);
     }
 
