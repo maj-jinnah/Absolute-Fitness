@@ -2,8 +2,9 @@ import React from 'react';
 import './Card.css'
 
 const Card = (props) => {
-    const { name, details, img, age, time } = props.player;
-    // console.log(props.player);
+    const {player, getTimeFromCard} = props;
+    const { name, details, img, age, time } = player;
+    // console.log(player, getTimeFromCard);
     return (
         <div className='card'>
             <img src={img} alt="" />
@@ -13,7 +14,7 @@ const Card = (props) => {
                 <p>Age: <strong>{age}</strong></p>
                 <p>Time required: <strong>{time}</strong> minutes</p>
             </div>
-            <button>Add To List</button>
+            <button onClick={()=>{ getTimeFromCard(time)}}>Add To List</button>
         </div>
     );
 };

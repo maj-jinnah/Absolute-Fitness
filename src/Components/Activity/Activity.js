@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Activity.css'
 
-const Activity = () => {
+const Activity = (props) => {
+    const { time } = props;
+
     return (
         <div className='info'>
             <div className='personal-info'>
@@ -22,7 +24,7 @@ const Activity = () => {
             <div>
                 <h3>Exercise Details</h3>
                 <div className='total-break'>
-                    <p>Total Exercise Time: 0 min</p>
+                    <p>Total Exercise Time: {time} min</p>
                     <p>Total Break time: 0 min</p>
                 </div>
             </div>

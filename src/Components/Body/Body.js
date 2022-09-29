@@ -6,7 +6,13 @@ import './Body.css'
 const Body = () => {
 
     const [cards, setCards] = useState([]);
+    const [time, setTime] = useState(0);
 
+    const getTimeFromCard = (timeRequired) => {
+        setTime(timeRequired);
+        // console.log(timeRequired);
+    }
+    
     useEffect(() => {
         fetch('card.json')
             .then(res => res.json())
@@ -21,12 +27,13 @@ const Body = () => {
                         cards.map(card => <Card
                             key={card.id}
                             player={card}
+                            getTimeFromCard= {getTimeFromCard}
                         ></Card>)
                     }
 
                 </div>
                 <div className='activity'>
-                    <Activity></Activity>
+                    <Activity time= {time}></Activity>
                 </div>
             </div>
         </div>
