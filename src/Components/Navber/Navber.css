@@ -12,8 +12,9 @@
 }
 .icon{
     font-size: 33px;
-    color: rgb(252, 15, 15);
+    color: rgb(136, 15, 15);
     margin-right: 5px;
+    margin-top: 3px;
 }
 .nav h1{
     margin: 0px;

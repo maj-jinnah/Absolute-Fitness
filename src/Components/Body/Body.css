@@ -1,0 +1,21 @@
+.body-container {
+    margin-top: 30px;
+    padding: 20px 10px;
+    display: grid;
+    grid-template-columns: 3.5fr 1.5fr;
+    gap: 10px;
+}
+
+.cards {
+    background-color: white;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+
+}
+
+.activity {
+    background-color: lightgreen;
+    border-radius: 10px;
+}

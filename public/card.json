@@ -2,54 +2,72 @@
   {
     "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
     "name": "Lunges",
+    "age": "18-15",
+    "time": 30,
     "details": "Promoting functional movement while also increasing strength in your legs and glutes.",
     "img": "https://images.pexels.com/photos/5067670/pexels-photo-5067670.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   },
   {
     "id": "13cbc7ed-a61b-4883-9d42-82d7d8642b86",
     "name": "Pushups",
+    "age": "18-15",
+    "time": 10,
     "details": "Pushups are one of the most basic yet effective bodyweight moves you can perform because of the number of muscles that are recruited to perform them.",
     "img": "https://images.pexels.com/photos/3775164/pexels-photo-3775164.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   },
   {
     "id": "307f166f-1d04-4573-bc37-2f461ea9d4f7",
     "name": "Squats",
+    "age": "18-15",
+    "time": 15,
     "details": "Squats increase lower body and core strength, as well as flexibility in your lower back and hips.",
     "img": "https://images.pexels.com/photos/4164464/pexels-photo-4164464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   },
   {
     "id": "4bf9798f-63bc-4a83-b0c6-6a3b816fe922",
-    "name": "Standing overhead dumbbell presses",
+    "name": "Standing overhead dumbbell",
+    "age": "18-15",
+    "time": 20,
     "details": "Compound exercises, which utilize multiple joints and muscles, are perfect for busy bees as they work several parts of your body at once.",
     "img": "https://images.pexels.com/photos/3763115/pexels-photo-3763115.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   },
   {
     "id": "9496d72b-04ec-41f8-9bc3-0a7c9697be8e",
     "name": "Single-leg deadlifts",
+    "age": "22-30",
+    "time": 2,
     "details": "Single-leg deadlifts require stability and leg strength. Grab a light to moderate dumbbell to complete this move.",
     "img": "https://images.pexels.com/photos/4047162/pexels-photo-4047162.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   },
   {
     "id": "6e5593d3-557b-43cf-8dab-a5140faedfb0",
     "name": "Dumbbell rows",
+    "age": "18-15",
+    "time": 20,
     "details": "Not only will these make your back look killer in that dress, but dumbbell rows are also another compound exercise that strengthens multiple muscles in your upper body.",
     "img": "https://images.pexels.com/photos/6551071/pexels-photo-6551071.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   },
   {
     "id": "9c0c13c2-54e4-4001-809b-afbd9d84037d",
     "name": "Burpees",
+    "age": "18-15",
+    "time": 20,
     "details": "Burpees are a super-effective, whole-body move that provides great bang for your buck for cardiovascular endurance and muscle strength.",
     "img": "https://images.pexels.com/photos/2294361/pexels-photo-2294361.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   },
   {
     "id": "c9d1f410-d28f-49d9-9b01-d759b5acbeea",
     "name": "Side planks",
+    "age": "18-15",
+    "time": 20,
     "details": "A healthy body requires a strong core at its foundation, so don’t neglect core-specific moves like the side plank.",
     "img": "https://images.pexels.com/photos/6456154/pexels-photo-6456154.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   },
   {
     "id": "1564a06b-692f-4f2e-8413-9c8a1cc2da77",
     "name": "Planks",
+    "age": "18-15",
+    "time": 30,
     "details": "Planks are an effective way to target both your abdominal muscles and your whole body.",
     "img": "https://images.pexels.com/photos/8346668/pexels-photo-8346668.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   }
