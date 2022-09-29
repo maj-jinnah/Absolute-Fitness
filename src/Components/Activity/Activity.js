@@ -9,7 +9,15 @@ const Activity = (props) => {
     const { time } = props;
 
     const showToastMessage = () => {
-        toast('Hello Geeks')
+        toast('Hello Brother!');
+    };
+
+    const [exerciseTime, setExerciseTime] = useState(0);
+
+    const addExerciseTime= (time) =>{
+        setExerciseTime(time);
+        localStorage.setItem('breakTime', exerciseTime)
+
     };
    
 
@@ -23,18 +31,18 @@ const Activity = (props) => {
             <div>
                 <h3>Add a Break </h3>
                 <div className='break-time'>
-                    <button> <span>2</span>min</button>
-                    <button> <span>4</span>min</button>
-                    <button> <span>5</span>min</button>
-                    <button> <span>8</span>min</button>
-                    <button> <span>10</span>min</button>
+                    <button onClick={()=>{addExerciseTime(2)}}>2 min</button>
+                    <button onClick={()=>{addExerciseTime(4)}}>4 min</button>
+                    <button onClick={()=>{addExerciseTime(5)}}>5 min</button>
+                    <button onClick={()=>{addExerciseTime(8)}}>8 min</button>
+                    <button onClick={()=>{addExerciseTime(10)}}>10min</button>
                 </div>
             </div>
             <div>
                 <h3>Exercise Details</h3>
                 <div className='total-break'>
                     <p>Total Exercise Time: {time} min</p>
-                    <p>Total Break time: 0 min</p>
+                    <p>Total Break time: {exerciseTime} min</p>
                 </div>
             </div>
             <button className='complete-btn' onClick={showToastMessage}>Activity Completed</button>
